@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: skyblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    border: 1px solid white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+h3 {
+    margin-top: 0;
+}
